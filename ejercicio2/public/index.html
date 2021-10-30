@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <div>
+      <h3>Realiza la búsqueda de un libro</h3>
+      <input type="text" placeholder="Busca un libro" id="libroBuscar" />
+      <button onclick="buscar()">Buscar</button>
+    </div>
+
+    <div>
+      <h3>Añade un libro que quieras</h3>
+      <input
+        type="text"
+        placeholder="Título del libro que quieres añadir"
+        id="libroAnyadir"
+      />
+      <button onclick="anyadir()">Añadir</button>
+    </div>
+
+    <div>
+      <h3>Edita un libro</h3>
+      <input
+        type="text"
+        placeholder="Título del libro que quieres editar"
+        id="libroEditar"
+      />
+      <button onclick="editar()">Editar</button>
+    </div>
+
+    <div>
+      <h3>Borra un libro</h3>
+      <input
+        type="text"
+        placeholder="Título del libro que quieres borrar"
+        id="libroBorrar"
+      />
+      <button onclick="borrar()">Borrar</button>
+    </div>
+
+    <div id="div1"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
